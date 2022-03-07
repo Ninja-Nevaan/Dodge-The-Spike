@@ -1,0 +1,25 @@
+body{
+    font-family: fantasy;
+}
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+#spike{
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    0%{
+        right: -900px;
+    }
+    50%{
+        right: 0px;
+    }
+    100%{
+        right: 900px;
+    }
+  }
+#ball{
+    top:0px;
+}
